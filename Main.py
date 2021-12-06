@@ -290,18 +290,7 @@ def play_abacus():
 
 
 
-#The year can be evenly divided by 4;
-#If the year can be evenly divided by 100, it is NOT a leap year, unless;
-#The year is also evenly divisible by 400. Then it is a leap year.
 
-# By Websten from forums
-#
-# Given your birthday and the current date, calculate your age in days. 
-# Account for leap days. 
-#
-# Assume that the birthday and current date are correct dates (and no 
-# time travel). 
-#
 
 def daysBetweenDates(year1, month1, day1, year2, month2, day2):
     if year1 < year2:           #this makes sure year1 is the newer year
